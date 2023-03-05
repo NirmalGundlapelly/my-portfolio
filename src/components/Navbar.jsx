@@ -34,13 +34,17 @@ const Logo = styled.h1`
   font-weight: 1000;
   font-size: 40px;
   height: 50px;
-  animation-name: animate;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 5px;
+  animation-name: animatee;
   animation-duration: 1.5s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
-  @keyframes animate {
+  @keyframes animatee {
     to {
-      transform: translateY(20px);
+      transform: translateX(20px);
     }
   }
 `;
