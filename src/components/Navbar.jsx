@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const Section = styled.div`
   /* z-index: 100;  */
+  scroll-snap-align: center;
   display: flex;
   padding: 10px;
   width: 90%;

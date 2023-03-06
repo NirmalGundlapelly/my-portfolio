@@ -9,9 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@react-three/drei": "^9.57.0",
+    "@react-three/fiber": "^8.11.8",
+    "@types/three": "^0.149.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.8"
+    "react-simple-maps": "^1.0.0",
+    "styled-components": "^5.3.8",
+    "three": "^0.150.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
